@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet"  href="./index.css">
+</head>
+<body>
+	<section class="container">
+		<div class="section_1">
+			<header class="header">
+				<p>
+					Rockify
+				</p>
+				<div class="header_image">
+					<img src="./Gear-RIP-Google-Music-1194411695.jpg">
+				</div>
+				
+			</header>
+			<div class="audios">
+				<div class="audio">
+					<div class="audio_img">
+						<img  src="./thumbnail/You-Benny-Blanco.jpg">
+					</div>
+					<div  class="audio_detail">
+						<h1  class="audio_title">You-Benny-Blanco</h1>
+						<button class="btn"onclick="playAudio(1)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img src="./thumbnail/Fake-A-Smile-Alan-Walker.jpg">
+					</div>
+					<div class="audio_detail">
+						<h1  class="audio_title">Fake-A-Smile</h1>
+						<button class="btn" onclick="playAudio(2)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img  src="./thumbnail/Breaking-the-Rules.jpg">
+					</div>
+					<div  class="audio_detail">
+						<h1  class="audio_title">Breaking-the-Rules</h1>
+						<button class="btn" onclick="playAudio(3)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img  src="./thumbnail/Your-Power-Billie-Eilish.jpg">
+					</div>
+					<div  class="audio_detail">
+						<h1  class="audio_title">Your-Power-Billie-Eilish</h1>
+						<button class="btn"onclick="playAudio(4)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img  src="./thumbnail/What-Other-People-Say-Sam-Fischer.jpg">
+					</div>
+					<div  class="audio_detail">
+						<h1  class="audio_title">What-Other-People-Say-Sam-Fischer</h1>
+						<button class="btn"onclick="playAudio(5)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img src="./thumbnail/Stronger-(feat.-Kesha)-Sam-Feldt.jpg">
+					</div>
+					<div  class="audio_detail">
+						<h1  class="audio_title">Stronger-(feat.-Kesha)-Sam-Feldt</h1>
+						<button class="btn"onclick="playAudio(6)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img  src="./thumbnail/beat-it-michael-jackson.jpg">
+					</div>
+					<div  class="audio_detail">
+						<h1 class="audio_title">beat-it-michael-jackson</h1>
+						<button class="btn"onclick="playAudio(7)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img  src="./thumbnail/Electric-Katy-Perry.jpg">
+					</div>
+					<div  class="audio_detail">
+						<h1  class="audio_title">Electric-Katy-Perry</h1>
+						<button class="btn"onclick="playAudio(8)">Play</button>
+					</div>
+				</div>
+
+				<div class="audio">
+					<div class="audio_img">
+						<img  src="./thumbnail/The-World-We-Left-Behind.jpg">
+					</div>
+					<div class="audio_detail">
+						<h1  class="audio_title">The-World-We-Left-Behind</h1>
+						<button class="btn"onclick="playAudio(9)">Play</button>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<div class="section_2">
+			
+			<div class="thumbnail">
+				<img id="thumbnail" src="./thumbnail/Fake-A-Smile-Alan-Walker.jpg">
+			</div>
+			<audio id="audio_player" class="audio_player" src="./audio/Fake-A-Smile-Alan-Walker.mp3" controls></audio>
+			<h1 id="audio_player_title" class="audio_player_title">Fake-A-Smile-Alan-Walker</h1>
+
+		</div>
+	</section>
+
+
+	<script src="./index.js"></script>
+</body>
+</html>
